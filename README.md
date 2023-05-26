@@ -25,7 +25,6 @@ Backend is a made using Node and Express.
       ```
     - Backend
 
-      > First, you need [Python(3.11.0)](https://www.python.org/downloads/release/python-3110/) installed.
       ```
       cd BE
       npm i
