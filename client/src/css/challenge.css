@@ -1,0 +1,62 @@
+@media only screen and (max-width: 480px) {
+  .new-challenge-search-bar {
+    width: 90%;
+  }
+}
+
+ul li:nth-of-type(1n + 10) {
+  display: none;
+}
+
+@media only screen and (max-width: 585px) {
+  .duration-circle {
+    flex-wrap: wrap;
+  }
+  .single-circle {
+    flex-grow: 1;
+    min-width: 25%;
+  }
+}
+
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  24% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.rotatee {
+  animation: rotationn 15s infinite linear;
+}
+@keyframes rotationn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.h1color {
+  color: #989898;
+}
+
+.h1color:hover {
+  color: #28e3d8;
+}

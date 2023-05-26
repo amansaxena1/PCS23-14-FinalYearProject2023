@@ -1,0 +1,10 @@
+.scrollhost::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollhost {
+  overflow: auto;
+  height: calc(100vh - 20px);
+  scrollbarwidth: none;
+  msoverflowstyle: none;
+}
